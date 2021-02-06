@@ -3,7 +3,7 @@ from discord.ext import commands
 import youtube_dl
 import os
 
-client = commands.Bot(command_prefix="!")
+client = commands.Bot(command_prefix="pg")
 
 @client.command()
 async def play(ctx, url : str):
@@ -68,4 +68,5 @@ async def stop(ctx):
     voice.stop()
 
 
-client.run('YOUR_TOKEN')
+client.run('Nzc1MjM0MjU2MTI5NDkwOTk0.X6jXKQ.IyRNCSHxDqg6YoexEtdKWJ9qCZ4');
+')
